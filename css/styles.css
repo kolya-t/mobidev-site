@@ -1,0 +1,150 @@
+body {
+    background-color: #efefef;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+* {
+    transition: all 0.3s ease;
+}
+
+/*WRAPPER START*/
+#wrapper {
+    background-color: white;
+    max-width: 1110px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*HEADING START*/
+#heading {
+    padding-top: 88px;
+}
+
+/*HEADING END*/
+
+/*CONTENT START*/
+#content {
+    text-align: center;
+}
+
+#content h1 {
+    font-size: 20px;
+}
+
+#content h2 {
+    font-size: 18px;
+    color: #67cc51;
+}
+
+#content p {
+    color: gray;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.small-img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.stripe {
+    margin: 30px 0;
+}
+
+#buttons {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#buttons a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 220px;
+    height: 50px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#green-button {
+    background-color: #7dba2e;
+    border: 1px solid #7dba2e;
+}
+
+#blue-button {
+    background-color: #42a4dd;
+    border: 1px solid #42a4dd;
+}
+
+#green-button:hover {
+    background-color: white;
+    color: #7dba2e;
+}
+
+#blue-button:hover {
+    background-color: white;
+    color: #42a4dd;
+}
+
+/*FOOTER START*/
+footer {
+    background-color: #555555;
+    color: lightgray;
+    width: 100%;
+    text-align: center;
+    height: 140px;
+}
+
+#footer-logo {
+    display: inline-block;
+    float: left;
+    width: 143px;
+}
+
+#footer-logo img {
+    height: 100px;
+    padding: 20px;
+}
+
+#vk {
+    display: inline-block;
+    height: 143px;
+    padding: 0 10px;
+}
+
+.vk-logo {
+    width: 20px;
+}
+
+.vk-ref {
+    line-height: 70px;
+    text-decoration: none;
+    color: #47a3da;
+}
+
+.vk-ref:hover {
+    color: #7dba2e;
+}
+
+.vk-ref * {
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.vk-label {
+    /*margin: 0 5px;*/
+}
+
+
+
+#socials {
+    float: right;
+    display: inline-block;
+    width: 143px;
+}
+
+/*FOOTER END*/
+/*CONTENT END*/
+/*WRAPPER END*/
