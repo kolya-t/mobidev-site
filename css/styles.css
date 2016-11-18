@@ -12,14 +12,14 @@ body {
 /*WRAPPER START*/
 #wrapper {
     background-color: white;
-    max-width: 1110px;
+    width: 1110px;
     margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 /*HEADING START*/
 #heading {
-    padding-top: 88px;
+    padding-top: 90px;
 }
 
 /*HEADING END*/
@@ -38,11 +38,22 @@ body {
     font-size: 18px;
 }
 
-#content p, .trends-list {
+#content p, #content ul, #content ol, blockquote {
     text-align: justify;
     color: gray;
     width: 80%;
+    padding: 0;
     margin: 20px auto;
+}
+
+blockquote {
+    padding: 20px;
+    width: 75%;
+    background-color: #efefef;
+}
+
+#content li {
+    margin-left: 25px;
 }
 
 .small-img {
@@ -91,57 +102,35 @@ body {
 
 /*FOOTER START*/
 footer {
+    transition: none;
     background-color: #555555;
     color: lightgray;
     width: 100%;
-    text-align: center;
-    height: 140px;
+    text-align: left;
+    height: 80px;
 }
 
-#footer-logo {
-    display: inline-block;
-    float: left;
-    width: 143px;
-}
 
-#footer-logo img {
-    height: 100px;
-    padding: 20px;
-}
-
-#vk {
-    display: inline-block;
-    height: 143px;
-    padding: 0 10px;
-}
 
 .vk-logo {
-    width: 20px;
+    height: 60px;
 }
 
 .vk-ref {
-    line-height: 70px;
+    line-height: 80px;
     text-decoration: none;
-    color: #47a3da;
+    color: white;
+    opacity: 0.5;
+    margin: 0 20px;
 }
 
 .vk-ref:hover {
-    color: #7dba2e;
+    opacity: 1;
 }
 
 .vk-ref * {
     vertical-align: middle;
     margin: 0 5px;
-}
-
-.vk-label {
-    /*margin: 0 5px;*/
-}
-
-#socials {
-    float: right;
-    display: inline-block;
-    width: 143px;
 }
 
 /*FOOTER END*/
@@ -153,7 +142,7 @@ footer {
     position: fixed;
     width: 80px;
     height: 80px;
-    right: 80px;
+    right: 20px;
     bottom: 10px;
     opacity: 0.5;
     /*filter: alpha(opacity=50);*/
