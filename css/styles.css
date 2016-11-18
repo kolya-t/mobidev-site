@@ -31,16 +31,17 @@ body {
 
 #content h1 {
     font-size: 20px;
+    color: #67cc51;
 }
 
 #content h2 {
     font-size: 18px;
-    color: #67cc51;
 }
 
-#content p {
+#content p, .trends-list {
+    text-align: justify;
     color: gray;
-    width: 50%;
+    width: 80%;
     margin: 20px auto;
 }
 
