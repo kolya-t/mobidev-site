@@ -138,8 +138,6 @@ footer {
     /*margin: 0 5px;*/
 }
 
-
-
 #socials {
     float: right;
     display: inline-block;
@@ -149,3 +147,26 @@ footer {
 /*FOOTER END*/
 /*CONTENT END*/
 /*WRAPPER END*/
+
+.b-top {
+    z-index: 2600;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    right: 80px;
+    bottom: 10px;
+    opacity: 0.5;
+    /*filter: alpha(opacity=50);*/
+}
+
+.b-top:hover {
+    opacity: 1;
+    /*filter: alpha(opacity=100);*/
+    cursor: pointer;
+}
+
+.b-top-but {
+    z-index: 2600;
+    width: 100%;
+}
+
