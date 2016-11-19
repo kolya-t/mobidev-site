@@ -61,6 +61,11 @@ blockquote {
     margin-bottom: 20px;
 }
 
+.small-img img {
+    max-height: 40px;
+    max-width: 40px;
+}
+
 .stripe {
     margin: 30px 0;
 }
@@ -110,7 +115,9 @@ footer {
     height: 80px;
 }
 
-
+footer.right {
+   text-align: right;
+}
 
 .vk-logo {
     height: 60px;
@@ -158,4 +165,3 @@ footer {
     z-index: 2600;
     width: 100%;
 }
-
