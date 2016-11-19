@@ -122,6 +122,22 @@ a#blue-button:hover {
     color: #42a4dd;
 }
 
+tooltip {
+    border-bottom: 1px dashed black;
+}
+
+#tooltip {
+    z-index: 9999;
+    position: absolute;
+    display: none;
+    background-color: darkgray;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    max-width: 30%;
+    text-align: justify;
+}
+
 table {
     border-collapse: collapse;
     width: 80%;
