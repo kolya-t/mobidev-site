@@ -52,6 +52,21 @@ blockquote {
     background-color: #efefef;
 }
 
+/* Свойства ссылок - START */
+#content a {
+    color: #6da3bd;
+    text-decoration: none;
+}
+
+#content a:hover {
+    text-decoration: underline;
+}
+
+#content a:visited {
+    color: #909;
+}
+/* Свойства ссылок - END*/
+
 #content li {
     margin-left: 25px;
 }
@@ -75,7 +90,7 @@ blockquote {
     line-height: 50px;
 }
 
-#buttons a {
+#buttons a, #buttons a:visited {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -95,14 +110,35 @@ blockquote {
     border: 1px solid #42a4dd;
 }
 
-#green-button:hover {
+a#green-button:hover {
     background-color: white;
+    text-decoration: none;
     color: #7dba2e;
 }
 
-#blue-button:hover {
+a#blue-button:hover {
     background-color: white;
+    text-decoration: none;
     color: #42a4dd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+th {
+    background-color: #eee;
+}
+
+td:first-child {
+    font-weight: bold;
 }
 
 /*FOOTER START*/
